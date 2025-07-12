@@ -1,6 +1,6 @@
 # Smart-Home-Automation-System
  The smart home automation system integrates YOLO (You Only Look Once) object detection technology to monitor  and control various aspects of the home environment. Without any intervention of Iot devices.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 pip install ultralytics opencv-python #Install the package, ignore if already installed
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -111,6 +111,7 @@ class SmartHomeSystem:
         cv2.destroyAllWindows()
         self.root.destroy()
         sys.exit()
+        
         
 
 if __name__ == "__main__":
